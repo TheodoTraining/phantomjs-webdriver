@@ -1,0 +1,15 @@
+{
+    "name": "epigraf-www",
+    "version": "0.1.0",
+    "require": {
+        "behat/behat": "*",
+        "behat/mink-extension":          "*",
+        "behat/mink-selenium2-driver":      "*"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "vendor"
+    }
+}
+

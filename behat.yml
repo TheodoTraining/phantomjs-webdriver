@@ -1,0 +1,12 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            default_session: selenium2
+            base_url: http://www.theodo.fr/
+            selenium2:
+                wd_host: "http://localhost:8643/wd/hub" # use $ phantomjs --webdriver=8643 to launch wd_host
+
+    formatter:
+        name:               pretty,html
+        parameters:
+            output_path:    null,behat_report.html
