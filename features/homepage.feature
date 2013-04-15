@@ -1,4 +1,4 @@
-Feature: Epigraf homepage
+Feature: Theodo homepage
 
     Scenario: Show the homepage
         Given I am on the homepage
