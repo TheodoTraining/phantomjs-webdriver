@@ -15,7 +15,8 @@ $ composer install
 
 Run PhantomJS in WebDriver server mode:
 ```
-$ phantomjs --webdriver=port
+PORT=8643
+$ phantomjs --webdriver=$PORT
 ```
 
 Configure your port in behat.yml (see sample file).
