@@ -1,6 +1,6 @@
 {
-    "name": "epigraf-www",
-    "version": "0.1.0",
+    "name": "TheodoTraining/phantomjs-webdriver",
+    "version": "0.1",
     "require": {
         "behat/behat": "*",
         "behat/mink-extension":          "*",
