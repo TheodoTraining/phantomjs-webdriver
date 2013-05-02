@@ -15,7 +15,7 @@ $ composer install
 
 Run PhantomJS in WebDriver server mode:
 ```
-PORT=8643
+$ PORT=8643
 $ phantomjs --webdriver=$PORT
 ```
 
